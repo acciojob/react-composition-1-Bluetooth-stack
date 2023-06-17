@@ -17,7 +17,7 @@ const arrOfTab = [
 
 const Tabs = () => {
     // let [tab, setTab] = useState(arrOfTab);
-    let [content, setContent] = useState("");
+    let [content, setContent] = useState(arrOfTab[0].content);
     function showContent(obj) {
         setContent(obj.content);
     }
